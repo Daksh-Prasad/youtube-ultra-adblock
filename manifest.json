@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube AdBlocker",
+    "version": "1.0.0",
+    "description": "Enjoy YouTube without interruptions! This  extension blocks video and banner ads, skips ads automatically, and hides ad containers for a smoother, distraction-free experience. Created by Daksh Prasad on Github",
+    "permissions": [
+      "declarativeNetRequest",
+      "storage",
+      "scripting"
+    ],
+    "host_permissions": [
+      "*://*.youtube.com/*",
+      "*://*.googlevideo.com/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "declarative_net_request": {
+      "rule_resources": [
+        {
+          "id": "block_youtube_ads",
+          "enabled": true,
+          "path": "rules.json"
+        }
+      ]
+    },
+    "icons": {
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  } 
+
+// Made by Daksh Prasad - https://github.com/Daksh-Prasad

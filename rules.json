@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": "*://*.youtube.com/*ad*",
+        "resourceTypes": ["xmlhttprequest", "media", "script", "sub_frame"]
+      }
+    },
+    {
+      "id": 2,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": "*://*.googlevideo.com/*ad*",
+        "resourceTypes": ["xmlhttprequest", "media", "script", "sub_frame"]
+      }
+    }
+  ]  
