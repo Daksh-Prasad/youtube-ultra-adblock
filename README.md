@@ -1,4 +1,4 @@
-# Youtube-Ultra-Adblock
+# ![icon128](https://github.com/user-attachments/assets/ba998f16-10ce-4fd8-a4dc-92cc44ca1d58) Youtube-Ultra-Adblock
 Enjoy YouTube without interruptions! This  extension blocks video and banner ads, skips ads automatically, and hides ad containers for a smoother, distraction-free experience. Created by Daksh Prasad on Github
 
 ## Setup Instructions
